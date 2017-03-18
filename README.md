@@ -2,7 +2,7 @@
 
 The idea of this repo is to setup an example vmm(4) envorioment to run VMs over OpenBSD, with OpenBSD.
 
-# ** WARNING ** This will override your files if exists
+# WARNING: This will override your files if exists
 
 ## hostname.vether0
 
