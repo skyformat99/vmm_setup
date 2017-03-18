@@ -80,7 +80,7 @@ sysctl.conf		100% |*********************************************************|   
 
 # vmm(4) running
 ```
-$ vmctl status                                                                                                                                
+$ vmctl status
    ID   PID VCPUS  MAXMEM  CURMEM     TTY        OWNER NAME
     7 25839     1    512M    161M   ttyp1         root OpenBSD_Test.vm
     6 96312     1    2.0G    733M   ttyp0         root OpenBSD_Ports.vm
