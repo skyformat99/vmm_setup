@@ -2,9 +2,7 @@
 
 The idea of this repo is to setup an example vmm(4) envorioment to run VMs over OpenBSD, with OpenBSD.
 
-##** WARNING **
-##This will override your files if exists
-##** WARNING **
+# ** WARNING ** This will override your files if exists
 
 ## hostname.vether0
 
@@ -27,8 +25,6 @@ A regular dhcpd setup, for our VMs, setting our network and nameservers.
 ## vm.conf
 
 Our VMs file, has comments, this is the main file, you need to edit this to your taste.
-
-
 
 ## Makefile usage
 
