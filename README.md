@@ -87,7 +87,7 @@ $ vmctl status
 ```
 
 ```
-$ vmctl console 7
+$ doas vmctl console 7
 
 OpenBSD/amd64 (test.vm.incre.host) (tty00)
 
