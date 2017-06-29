@@ -84,6 +84,7 @@ $ vmctl status
    ID   PID VCPUS  MAXMEM  CURMEM     TTY        OWNER NAME
     7 25839     1    512M    161M   ttyp1         root OpenBSD_Test.vm
     6 96312     1    2.0G    733M   ttyp0         root OpenBSD_Ports.vm
+    3 30269     1    2.0G    401M   ttyp6         root Alpine_Linux.vm
 ```
 
 ```
@@ -92,4 +93,26 @@ $ doas vmctl console 7
 OpenBSD/amd64 (test.vm.incre.host) (tty00)
 
 login:
+```
+
+```
+$ doas vmctl console 3
+
+
+Welcome to Alpine Linux 3.6
+Kernel 4.9.32-0-virthardened on an x86_64 (/dev/ttyS0)
+
+sonarr login: gonzalo
+Password:
+Welcome to Alpine!
+
+The Alpine Wiki contains a large amount of how-to guides and general
+information about administrating Alpine systems.
+See <http://wiki.alpinelinux.org>.
+
+You can setup the system with the command: setup-alpine
+
+You may change this message by editing /etc/motd.
+
+alpine:~$
 ```
