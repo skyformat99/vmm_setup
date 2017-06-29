@@ -22,7 +22,7 @@ rm /tmp/hostname.vether0 /tmp/*.conf
 echo ""
 echo "[+] Enabling vmd & setting dhcpd..."
 echo ""
-rcctl enable vmd && rcctl set dhcpd flags vether0
+rcctl enable vmd && rcctl enable dhcpd && rcctl set dhcpd flags vether0
 echo ""
 echo "[+] All done, you can reboot now and play with vmm(4)."
 echo ""
